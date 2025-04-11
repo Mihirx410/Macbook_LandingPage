@@ -20,6 +20,12 @@ const Macbook = () => {
   });
   // here is all the parts are shown from which the model is created and we'll use them to fold the laptop, and adding the texture
   console.log(meshes,"meshes object");
+  meshes.screen.rotation.x = THREE.MathUtils.degToRad(180);
+  meshes.matte.material.map = texture;
+  meshes.matte.material.emissiveIntensity= 0;
+  meshes.matte.material.metalness =1;
+  meshes.matte.material.roughness =1;
+
 
   // scroll animation
   const data = useScroll();

@@ -17,7 +17,7 @@ const App = () => {
       <ScrollControls pages={4}>
         <Macbook/>
         {/* For HDRI lighting from link */}
-        <Environment files={['https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/symmetrical_garden_02_4k.hdr']} />
+        <Environment files={['https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/stierberg_sunrise_4k.hdr']} />
       </ScrollControls>
 
         
